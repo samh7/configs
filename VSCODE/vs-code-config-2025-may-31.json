@@ -61,6 +61,7 @@
 	"git.pullBeforeCheckout": true,
 	"git.repositoryScanMaxDepth": 4,
 	"editor.bracketPairColorization.enabled": true,
+	 "editor.defaultFormatter": "dbaeumer.vscode-eslint",
 	"editor.codeActionsOnSave": {
 		"source.fixAll": "always",
 		"source.fixAll.eslint": "always",
@@ -116,7 +117,9 @@
 		"package.json": "bun.lockb, package-lock.json, pnpm-lock.yaml, yarn.lock",
 		"tailwind.config.cjs": "tailwind.*.cjs, tailwind.*.json",
 		"tsconfig.json": "tsconfig.*.json, tsconfig.tsbuildinfo",
-		"tsconfig.tsbuildinfo": "tsconfig.*.tsbuildinfo"
+		"tsconfig.tsbuildinfo": "tsconfig.*.tsbuildinfo",
+		"*Controller.ts": "$(capture)Service.ts, $(capture)Service.js, $(capture)Module.js, $(capture)Module.ts",
+		"*Entity.ts": "$(capture)Dto.ts, $(capture)Dto.js"
 	},
 	"telemetry.telemetryLevel": "all",
 	"terminal.external.windowsExec": "wt",
@@ -255,5 +258,11 @@
 				}
 			}
 		]
-	}
+	},
+	"js/ts.updateImportsOnFileMove.enabled": "always",
+	"chat.viewSessions.orientation": "stacked",
+	"js/ts.tsserver.log": "off",
+	"eslint.validate": [
+		"typescript"
+	]
 }

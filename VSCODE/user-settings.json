@@ -118,7 +118,7 @@
 		"tailwind.config.cjs": "tailwind.*.cjs, tailwind.*.json",
 		"tsconfig.json": "tsconfig.*.json, tsconfig.tsbuildinfo",
 		"tsconfig.tsbuildinfo": "tsconfig.*.tsbuildinfo",
-		"*Controller.ts": "$(capture)Service.ts, $(capture)Service.js, $(capture)Module.js, $(capture)Module.ts",
+		"*Controller.ts": "$(capture)Service.ts, $(capture)Service.js, $(capture)Module.js, $(capture)Module.ts, $(capture)util.js, $(capture)util.ts",
 		"*Entity.ts": "$(capture)Dto.ts, $(capture)Dto.js"
 	},
 	"telemetry.telemetryLevel": "all",
@@ -225,7 +225,7 @@
 	"breadcrumbs.enabled": false,
 	// "errorLens.statusBarColorsEnabled": true,
 	// Old Settings
-	"workbench.colorTheme": "JellyFish",
+	"workbench.colorTheme": "Tomorrow Night Blue",
 	"workbench.startupEditor": "none",
 	"python.languageServer": "Default",
 	"python.analysis.typeCheckingMode": "standard",
@@ -264,5 +264,10 @@
 	"js/ts.tsserver.log": "off",
 	"eslint.validate": [
 		"typescript"
-	]
+	],
+	"license.year": "auto",
+	"update.showReleaseNotes": false,
+	"update.enableWindowsBackgroundUpdates": false,
+	"update.mode": "none",
+	"update.titleBar": "detailed",
 }

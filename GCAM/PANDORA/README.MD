@@ -1,3 +1,3 @@
 - GCAM SOURCE: celsoazevedo (dot) com
-- VERSION: AGC 9.2 / 9.3
+- VERSION: AGC 9.2.14_V14 only
 - ATTRIBUTION: This config has the base of XIAOMI_XUANYUAN config from CELSOAZEVEDO for agc version 9.2 with my own changes for PANDORA
